@@ -2,6 +2,32 @@ import os
 import re
 
 
+def detect():
+    data_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "Data")
+    data_dirs = [data_dir for data_dir in os.listdir(data_path) if os.path.isdir(os.path.join(data_path, data_dir))]
+    report = "==========================================================================\n\n"
+
+    # iterate over all data files
+    for rule in data_dirs:
+        report += "-Checking " + rule + " samples-\n\n"
+        for file in os.listdir(os.path.join(data_path, rule)):
+            filename = os.path.join(data_path, rule, file)
+            report += os.path.join(rule, file) + ":\n"
+
+            # read file content
+            with open(filename, 'r') as input:
+                content = input.read()
+                result = check_rules(content)
+                report += result if result != "" else "No issues found\n"
+            report += "\n"
+        report += "==========================================================================\n\n"
+
+    outfile = os.path.join(os.path.dirname(os.path.realpath(__file__)), "Report.txt")
+    with open(outfile, "w") as outfile:
+        outfile.write(report)
+    print(report)
+
+
 def check_rules(content):
     # cipher
     report = ""
@@ -24,7 +50,6 @@ def check_rules(content):
             report += "\n"
         else:
             report += ", "
-
 
     # default HTTP client
     pattern = re.compile("new DefaultHttpClient\(")
@@ -119,32 +144,6 @@ def check_rules(content):
         report += "TrustManager that accept any certificates\n"
 
     return report
-
-
-def detect():
-    data_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "Data")
-    data_dirs = [data_dir for data_dir in os.listdir(data_path) if os.path.isdir(os.path.join(data_path, data_dir))]
-    report = "==========================================================================\n\n"
-
-    # iterate over all data files
-    for rule in data_dirs:
-        report += "-Checking " + rule + " samples-\n\n"
-        for file in os.listdir(os.path.join(data_path, rule)):
-            filename = os.path.join(data_path, rule, file)
-            report += os.path.join(rule, file) + ":\n"
-
-            # read file content
-            with open(filename, 'r') as input:
-                content = input.read()
-                result = check_rules(content)
-                report += result if result != "" else "No issues found\n"
-            report += "\n"
-        report += "==========================================================================\n\n"
-
-    outfile = os.path.join(os.path.dirname(os.path.realpath(__file__)), "Report.txt")
-    with open(outfile, "w") as outfile:
-        outfile.write(report)
-    print(report)
 
 
 if __name__ == '__main__':
