@@ -1,0 +1,181 @@
+==========================================================================
+
+-Checking Cipher samples-
+
+Cipher\CorrectUse.java:
+No issues found
+
+Cipher\Misuse.java:
+Cipher is susceptible to Padding Oracle
+Cipher with no integrity: CBC
+
+==========================================================================
+
+-Checking CipherIntegrity samples-
+
+CipherIntegrity\CorrectUse.java:
+No issues found
+
+CipherIntegrity\Misuse.java:
+Cipher is susceptible to Padding Oracle
+Cipher with no integrity: CBC, ECB
+DESede is insecure
+ECB mode is insecure
+
+==========================================================================
+
+-Checking DeafultHttpClient samples-
+
+DeafultHttpClient\CorrectUse.java:
+No issues found
+
+DeafultHttpClient\Misuse.java:
+DefaultHttpClient with default constructor is not compatible with TLS 1.2
+
+==========================================================================
+
+-Checking Des samples-
+
+Des\CorrectUse.java:
+No issues found
+
+Des\Misuse.java:
+Cipher with no integrity: ECB
+DES is insecure
+DESede is insecure
+ECB mode is insecure
+
+==========================================================================
+
+-Checking EcbMode samples-
+
+EcbMode\CorrectUse.java:
+No issues found
+
+EcbMode\Misuse.java:
+Cipher with no integrity: ECB
+ECB mode is insecure
+
+==========================================================================
+
+-Checking Hash samples-
+
+Hash\CorrectUse.java:
+No issues found
+
+Hash\Misuse.java:
+Weak hash functions: MD2, MD4, MD5, SHA1
+
+==========================================================================
+
+-Checking HostnameVerifier samples-
+
+HostnameVerifier\CorrectUse.java:
+No issues found
+
+HostnameVerifier\Misuse.java:
+HostnameVerifier that accept any signed certificates
+
+==========================================================================
+
+-Checking IV samples-
+
+IV\CorrectUse.java:
+No issues found
+
+IV\Misuse.java:
+Static IV
+
+==========================================================================
+
+-Checking MessageDigest samples-
+
+MessageDigest\CorrectUse.java:
+No issues found
+
+MessageDigest\Misuse.java:
+Message digest is custom
+
+==========================================================================
+
+-Checking NullCipher samples-
+
+NullCipher\CorrectUse.java:
+No issues found
+
+NullCipher\Misuse.java:
+NullCipher is insecure
+
+==========================================================================
+
+-Checking Prng samples-
+
+Prng\CorrectUse.java:
+No issues found
+
+Prng\Misuse.java:
+Predictable pseudorandom number generator
+
+==========================================================================
+
+-Checking RsaKey samples-
+
+RsaKey\CorrectUse.java:
+No issues found
+
+RsaKey\Misuse.java:
+RSA usage with short key
+
+==========================================================================
+
+-Checking RsaPadding samples-
+
+RsaPadding\CorrectUse.java:
+Cipher with no integrity: ECB
+ECB mode is insecure
+
+RsaPadding\Misuse.java:
+RSA with no padding is insecure
+
+==========================================================================
+
+-Checking ServerSocket samples-
+
+ServerSocket\CorrectUse.java:
+No issues found
+
+ServerSocket\Misuse.java:
+Unencrypted Server Socket
+
+==========================================================================
+
+-Checking Socket samples-
+
+Socket\CorrectUse.java:
+No issues found
+
+Socket\Misuse.java:
+Unencrypted Socket
+
+==========================================================================
+
+-Checking SslContext samples-
+
+SslContext\CorrectUse.java:
+No issues found
+
+SslContext\Misuse.java:
+Weak SSLContext
+
+==========================================================================
+
+-Checking TrustManager samples-
+
+TrustManager\CorrectUse.java:
+No issues found
+
+TrustManager\Misuse.java:
+TrustManager that accept any certificates
+
+==========================================================================
+
