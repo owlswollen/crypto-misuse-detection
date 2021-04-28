@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7706bb81-dcfc-4661-94a1-1f2fd0b3e76f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data/Cipher/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Cipher/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/CipherIntegrity/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/CipherIntegrity/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/DeafultHttpClient/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/DeafultHttpClient/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Des/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Des/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/EcbMode/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/EcbMode/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Hash/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Hash/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/HashEquals/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/HashEquals/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/HostnameVerifier/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/HostnameVerifier/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/IV/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/IV/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Key/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Key/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/MessageDigest/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/MessageDigest/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/NullCipher/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/NullCipher/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Password/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Password/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Prng/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Prng/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/RsaKey/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/RsaKey/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/RsaPadding/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/RsaPadding/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/ServerSocket/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/ServerSocket/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Socket/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Socket/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/SslContext/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/SslContext/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/TrustManager/CorrectUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/TrustManager/Misuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1rmcQng2Dp8Wv7xBkP2N2nHp2c7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gokceonen\Documents\Courses\SSS\crypto-misuse-detection\CryptoMisuseDetection" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CryptoMisuseDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7706bb81-dcfc-4661-94a1-1f2fd0b3e76f" name="Default Changelist" comment="" />
+      <created>1619584691614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619584691614</updated>
+      <workItem from="1619584704011" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CryptoMisuseDetection$main.coverage" NAME="main Coverage Results" MODIFIED="1619584729622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
